@@ -28,9 +28,12 @@ Create a new virtualenv:
 
     python3 -m venv DIR
 
-Activate the virtualenv and install/update necessary packages:
+Activate the virtualenv:
 
     . DIR/bin/activate
+
+Install/update necessary packages:
+
     python -m pip install --upgrade pip setuptools wheel setuptools_scm
     pip install omuse-iemic
 
