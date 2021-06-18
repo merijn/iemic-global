@@ -35,12 +35,8 @@ Activate the virtualenv:
 Install/update necessary packages:
 
     python -m pip install --upgrade pip setuptools wheel setuptools_scm
-    pip install omuse-iemic
+    pip install matplotlib omuse-iemic
 
 The code can then be run using:
 
     python iemic_global.py
-
-Or:
-
-    ./iemic_global.py
