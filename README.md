@@ -22,7 +22,9 @@ virtualenv with access to the omuse-iemic install via `omuse-env DIR`
 
 The following command can be used to install all prerequisite packages:
 
-    sudo apt-get install gfortran libopenblas-dev libhdf5-openmpi-dev libgsl0-dev cmake libfftw3-3 libfftw3-dev libmpfr6 libmpfr-dev libnetcdf-dev libnetcdff-dev libptscotch-dev trilinos-all-dev libslicot-dev
+    sudo apt-get install gfortran libopenblas-dev libhdf5-openmpi-dev libgsl0-dev \
+          cmake libfftw3-3 libfftw3-dev libmpfr6 libmpfr-dev libnetcdf-dev \
+          libnetcdff-dev libptscotch-dev trilinos-all-dev libslicot-dev
 
 Create a new virtualenv:
 
